@@ -27,12 +27,9 @@ function verify(code: string) {
 
   const sum = calcArr.reduce((prevNum, v, index) => {
     if (index === 0) {
-      return X1
+      return X1 + 9 * X2
     }
-    if (index === 1) {
-      return prevNum + 9 * X2
-    }
-    return prevNum + (10 - index) * Number(v)
+    return prevNum + (10 - index - 1) * Number(v)
   }, 0)
 
   return (10 - sum % 10) === checkCode
