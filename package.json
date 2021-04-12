@@ -35,6 +35,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xlslucky/taiwan-idcard.git"
+    "url": "git@github.com:xlslucky/taiwan-idcard.git"
   }
 }
