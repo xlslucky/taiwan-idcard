@@ -17,7 +17,6 @@
   "license": "MIT",
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
-    "release-it": "^14.6.1",
     "rollup": "^2.45.0",
     "rollup-plugin-typescript2": "^0.30.0",
     "typescript": "^4.2.4"
@@ -26,15 +25,5 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
-  },
-  "release-it": {
-    "git": {
-      "pushArgs": "origin",
-      "pushRepo": "master"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:xlslucky/taiwan-idcard.git"
   }
 }
