@@ -29,14 +29,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xlslucky/taiwan-idcard.git"
+    "url": "git+https://github.com/xlslucky/taiwan-idcard.git"
   },
   "publishConfig": {
     "access": "public"
   },
-  "release-it": {
-    "github": {
-      "release": true
-    }
+  "github": {
+    "release": true
   }
 }
