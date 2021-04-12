@@ -32,5 +32,9 @@
       "pushArgs": "origin",
       "pushRepo": "master"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlslucky/taiwan-idcard.git"
   }
 }
