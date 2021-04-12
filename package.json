@@ -29,7 +29,8 @@
   },
   "release-it": {
     "git": {
-      "requireBranch": "master"
+      "pushArgs": "origin",
+      "pushRepo": "master"
     }
   }
 }
