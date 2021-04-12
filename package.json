@@ -33,5 +33,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    }
   }
 }
