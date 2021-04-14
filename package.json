@@ -5,7 +5,7 @@
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "scripts": {
-    "release": "release-it",
+    "release": "release-it --no-git.requireUpstream",
     "build": "rm -rf ./dist && rollup -c"
   },
   "devDependencies": {
