@@ -8,6 +8,18 @@
     "release": "release-it",
     "build": "rm -rf ./dist && rollup -c"
   },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "release-it": "^14.6.1",
+    "rollup": "^2.45.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xlslucky/taiwan-idcard.git"
+  },
   "keywords": [
     "taiwan",
     "idcard",
@@ -15,12 +27,10 @@
   ],
   "author": "xlslucky <xlslucky@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0",
-    "rollup": "^2.45.0",
-    "rollup-plugin-typescript2": "^0.30.0",
-    "typescript": "^4.2.4"
+  "bugs": {
+    "url": "https://github.com/xlslucky/taiwan-idcard/issues"
   },
+  "homepage": "https://github.com/xlslucky/taiwan-idcard#readme",
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
