@@ -1,6 +1,6 @@
 {
   "name": "taiwan-idcard",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "taiwan idcard verify",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
