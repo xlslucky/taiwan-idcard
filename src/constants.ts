@@ -1,4 +1,4 @@
-export const REGION_MAP = {
+export const REGION_MAP: Record<string, string> = {
   'A': '台北市',
   'B': '台中市',
   'C': '基隆市',
